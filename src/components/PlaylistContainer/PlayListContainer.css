@@ -1,0 +1,15 @@
+.playlist-container {
+  height: 72vh;
+  padding-top: 1rem;
+  margin: 10px;
+  border-radius: 10px;
+  /* background-color: #121212; */
+  background: var(--panel-background);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid var(--panel-border);
+}
+
+.hidden {
+  display: none;
+}

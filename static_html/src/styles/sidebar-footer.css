@@ -55,8 +55,7 @@ body{
   color: #b3b3b3;
   text-decoration: none;
   font-weight: 600;
-  font-size: 14px;
-  
+  font-size: 14px;  
 }
 
 .library{
@@ -175,7 +174,6 @@ body{
   text-decoration: underline;
 }
 
-
 .disclaimer-premium {
   position: fixed;
   bottom: 0;
@@ -188,6 +186,7 @@ body{
   display: flex;
   justify-content: space-between;
 }
+
 .disclaimer-premium .text {
  flex-shrink: 0;
 }

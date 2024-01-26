@@ -1,0 +1,29 @@
+.offer__scroll-container {
+  max-height: 52vh;
+  margin: 3rem; /* 24px para rem */
+  overflow-y: auto;
+}
+
+.offer__scroll-container::-webkit-scrollbar {
+  width: 0.0625rem; /* 1px para rem */
+}
+
+/* Thumb */
+.offer__scroll-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+/* FIM SCROLL */
+
+.offer__list-item {
+  display: grid; 
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;  
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 1015px) {
+  .offer__list-item {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}

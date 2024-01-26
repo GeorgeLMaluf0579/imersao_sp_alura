@@ -1,0 +1,5 @@
+body{
+  background: linear-gradient(0deg, rgba(1,1,1,1) 20%, rgba(0, 55, 110, 0.8) 80%);
+  height: 100vh;
+  font-family: var(--font-dm-sans);
+}

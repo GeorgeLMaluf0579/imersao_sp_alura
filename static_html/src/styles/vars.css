@@ -1,0 +1,10 @@
+:root {
+  --font-dm-sans: "DM Sans", sans-serif;
+
+  --bg-icon: #131313;
+  --bg-arrow-color: rgba(0,0,0,0.7);
+  --text-base-light: #fff;
+  --panel-background: rgba(18, 18, 18, 0.5);
+  --panel-border: rgba(18, 18, 18, 0.5);
+  --panel-secondary-background: rgba(36,36,36,0.5);
+}

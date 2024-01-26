@@ -1,0 +1,48 @@
+.sidebar__navigation{
+  /* background-color: #121212; */
+  background: var(--panel-background);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid var(--panel-border);
+  border-radius:8px;
+  padding:16px 0 0 16px;
+}
+
+.logo{
+  /* background: #121212; */
+  background: var(--panel-background);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid var(--panel-border);
+  border-radius:8px;
+  display:flex;
+  width: 94%;
+  border-radius:8px ;
+  padding:16px 0 16px 0;
+}
+
+.sidebar__navigation .logo img{
+  width:80px;
+}
+
+.sidebar nav ul{
+  margin-top: 20px;
+  padding:0 20px 10px 20px;
+}
+
+.sidebar ul li{
+  padding: 10px 0;
+}
+
+.sidebar nav ul li a{
+  color: #b3b3b3;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.sidebar nav ul li a span { 
+  margin-right: 4px;
+}
